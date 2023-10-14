@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>UnitsConvert</h1>
+    </header>
+    <div>
+        <span></span>
+    </div>
+    <div class="conversorTemp">
+        <h1>Conversor de Temperatura</h1>
+        <div class="medidas">
+            <div class="Celsius Temp">
+                <p>Celcius</p>
+                <div class="med">
+                    <input type="number" placeholder="Celcius" id="celcius" oninput="ConverterCelsius()">
+                    <p>(°C)</p> 
+                </div>
+            </div>
+            <div class="Fahrenheit Temp">
+                <p>Fahrenheit</p>
+                <div class="med">    
+                    <input type="number" placeholder="Fahrenheit" id="fahrenheit" oninput="ConverterFahrenheit()">
+                    <p>(°F)</p> 
+                
+                </div>
+            </div>
+            <div class="Kelvin Temp">
+                <p>Kelvin</p>
+                <div class="med">
+                    <input type="number" placeholder="Kelvin" id="kelvin" oninput="ConverterKelvin()">
+                    <p>(°K)</p> 
+                </div>
+            </div>
+            <div class="Rankine Temp">
+                <p>Rankine</p>
+                <div class="med">
+                    <input type="number" placeholder="Rankine" id="rankine" oninput="ConverterRankine()">
+                    <p>(°Ra)</p> 
+                </div>
+            </div>
+            <div class="Newton Temp">
+                <p>Newton</p>
+                <div class="med">
+                    <input type="number" placeholder="Newton" id="newton" oninput="ConverterNewton()">
+                    <p>(°N)</p> 
+                </div>
+            </div>
+            <div class="Delisle Temp">
+                <p>Delisle</p>
+                <div class="med">
+                    <input type="number" placeholder="Delisle" id="delisle" oninput="ConverterDelisle()">
+                    <p>(°De)</p> 
+                </div>
+            </div>
+            <div class="Réaumur Temp">
+                <p>Réaumur</p>
+                <div class="med">
+                    <input type="number" placeholder="Réaumur" id="reaumur" oninput="ConverterReaumur()">
+                    <p>(°R)</p> 
+                </div>
+            </div>
+            <div class="Romer Temp">
+                <p>Romer</p>
+                <div class="med">
+                    <input type="number" placeholder="Romer" id="romer" oninput="ConverterRomer()">
+                    <p>(°Rø)</p> 
+                </div>
+            </div>
+        </div>
+        <!-- <h1 id="pontinhos"> <a>•••</a> </h1> -->
+        <button id="button">Redefinir</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
